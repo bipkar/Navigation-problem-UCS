@@ -5,15 +5,14 @@ Programming language used: Java
 
 How the code is structured?
 
-    1. find_route.java contains only the main function 
-    
-	1.1. main function
+ 1. find_route.java contains only the main function 
+    1.1. main function
 	
-       	 1.1.1. in the main function the command line input are stored in different variables.
+    1.1.1. in the main function the command line input are stored in different variables.
 	 
-         1.1.2. the contents of input file is read and stored in the ArrayList called "route".
+    1.1.2. the contents of input file is read and stored in the ArrayList called "route".
 	 
-         1.1.3. the fringe uses a priority queue, the priority queue uses comparator-interface to sort the nodes following UCS algorithm.
+    1.1.3. the fringe uses a priority queue, the priority queue uses comparator-interface to sort the nodes following UCS algorithm.
 	 
 	 
     2. Input_File.java contains:
