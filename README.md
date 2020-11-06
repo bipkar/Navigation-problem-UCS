@@ -9,11 +9,13 @@ How the code is structured?
        	 -in the main function the command line input are stored in different variables.
          -the contents of input file is read and stored in the ArrayList called "route".
          -the fringe uses a priority queue, the priority queue uses comparator-interface to sort the nodes following UCS algorithm.
+	 
     B. Input_File.java contains:
 	1. get_city1() to return the origin city
 	2. get_city2() to return the destination city
 	3. get_distance() return the route distance
     C. Nodes.java contains:
+    
 	1. A constructor Nodes to initialize the required objects for the program
 	2. get_total_depth() to return the node depth
 	3. get_total_distance to return the total distance of the route
@@ -21,6 +23,7 @@ How the code is structured?
 	5. get_child() method to store and return the Childs 
 	6. set_child() to determine the child node
 	7. get_parent() to determine the parent node
+	
     D. nodeComparator.java is created which uses the comparator-interface to sort the nodes following UCS algorithm
 	1. compare() function to sort the nodes according to their route cost. 
 	
